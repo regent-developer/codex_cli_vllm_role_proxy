@@ -175,7 +175,7 @@ sandbox = "elevated"                   # Windows 下沙箱模式
 
 ```powershell
 # 临时设置（当前会话有效）
-$env:CODEX_HOME = "d:\codex\.codex"
+$env:CODEX_HOME = 'd:\codex\.codex'
 
 # 永久设置（用户级）
 [nvironmnt]::SetEnvironmentVariable("CODEX_HOME", "d:\codex\.codex", "User")
